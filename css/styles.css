@@ -1,0 +1,206 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.site-header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  max-width: 260px;
+  height: auto;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin: 1.5rem 0;
+}
+
+.week-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+button {
+  font-size: 1rem;
+  padding: .75rem 1rem;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.schedule-wrapper {
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 100px repeat(7, minmax(180px, 1fr));
+  min-width: 1300px;
+  border: 2px solid #777;
+}
+
+.cell {
+  border: 1px solid #333;
+  padding: .75rem;
+  min-height: 90px;
+  color: #111;
+  background: #f2d6e1;
+}
+
+.header-cell,
+.time-cell {
+  background: #333;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.program-title {
+  font-weight: 700;
+}
+
+.host {
+  font-style: italic;
+}
+.program-card {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  font: inherit;
+}
+
+.program-card:hover,
+.program-card:focus {
+  outline: 3px solid #005fcc;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.program-card span {
+  display: block;
+}
+
+.category {
+  margin-top: .5rem;
+  font-size: .85rem;
+}
+.toolbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+#searchInput {
+  padding: .75rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 0;
+  min-width: 260px;
+}
+
+.program-card {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  font: inherit;
+}
+
+.program-card:hover,
+.program-card:focus {
+  outline: 3px solid #005fcc;
+  background: rgba(255,255,255,.5);
+}
+
+.program-title,
+.host,
+.category {
+  display: block;
+}
+
+.program-title {
+  font-weight: 700;
+}
+
+.host {
+  font-style: italic;
+}
+
+.category {
+  margin-top: .5rem;
+  font-size: .85rem;
+}
+
+.cat-music { background: #f4d6e2; }
+.cat-affairs { background: #ddd5ff; }
+.cat-news { background: #e8ffe4; }
+.cat-talk { background: #d9e7ff; }
+.cat-health { background: #c8ffbf; }
+.cat-special { background: #f0a3bd; }
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #111;
+  color: #fff;
+  max-width: 520px;
+  width: 100%;
+  border: 3px solid #9cff7a;
+  border-radius: 14px;
+  padding: 2rem;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.close-btn {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+@media (max-width: 700px) {
+  .schedule-grid {
+    grid-template-columns: 90px minmax(240px, 1fr);
+    min-width: 0;
+  }
+
+  .site-header {
+    padding: 1rem;
+  }
+
+  .logo {
+    max-width: 180px;
+  }
+}

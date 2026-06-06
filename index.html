@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WPFW Schedule Redesign Prototype</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+  <a href="https://wpfwfm.org/radio/" class="logo-link">
+    <img src="assets/wpfw_logo.png" alt="WPFW 89.3 FM Home" class="logo" />
+  </a>
+
+  <h1 id="weekTitle">Schedule for Week</h1>
+
+  <nav class="week-nav">
+    <button id="prevWeek">Previous Week</button>
+    <button id="currentWeek">Current Week</button>
+    <button id="nextWeek">Next Week</button>
+  </nav>
+
+  <div class="toolbar">
+    <button id="weekView">Week View</button>
+    <button id="todayView">Today View</button>
+    <input id="searchInput" type="search" placeholder="Search program or host..." />
+  </div>
+</header>
+
+<div id="programModal" class="modal hidden">
+  <div class="modal-content">
+    <button id="closeModal" class="close-btn">×</button>
+    <h2 id="modalTitle"></h2>
+    <p id="modalTime"></p>
+    <p id="modalHost"></p>
+    <p id="modalCategory"></p>
+    <p id="modalDescription"></p>
+  </div>
+</div>
+
+  <main>
+    <section class="schedule-wrapper">
+      <div id="scheduleGrid" class="schedule-grid"></div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

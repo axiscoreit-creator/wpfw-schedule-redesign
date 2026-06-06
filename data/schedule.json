@@ -1,0 +1,250 @@
+[
+    {
+    "day": "Monday",
+    "time": "5:00 AM",
+    "title": "Morning Brew Jazz Notes Edition",
+    "host": "Ellen Carter",
+    "category": "Syndicated Music",
+    "description": "Morning jazz programming featuring Union City Radio."
+  },
+  {
+    "day": "Thursday",
+    "time": "5:00 AM",
+    "title": "Morning Brew Classic Jazz Edition",
+    "host": "Craig Williams",
+    "category": "Syndicated Music",
+    "description": "Classic jazz morning programming."
+  },
+  {
+    "day": "Friday",
+    "time": "1:00 PM",
+    "title": "The Labor Heritage Power Hour",
+    "host": "Chris Garlock / Elise Bryant",
+    "category": "Local Public Affairs",
+    "description": "Labor news and information."
+  },
+  {
+    "day": "Friday",
+    "time": "10:00 AM",
+    "title": "On The Ground",
+    "host": "Esther Iverem",
+    "category": "Local Public Affairs",
+    "description": "News and analysis from the ground up."
+  },
+  {
+    "day": "Sunday",
+    "time": "06:00 AM",
+    "title": "Spirit Of Jazz",
+    "host": "Lona Alias",
+    "category": "Syndicated Music",
+    "description": "Jazz programming."
+  },
+  {
+    "day": "Sunday",
+    "time": "09:00 AM",
+    "title": "G-Strings",
+    "host": "Tom Cole",
+    "category": "Syndicated Music",
+    "description": "Music program."
+  },
+  {
+    "day": "Sunday",
+    "time": "04:00 PM",
+    "title": "Miles Ahead",
+    "host": "Miles Willis",
+    "category": "Syndicated Music",
+    "description": "Jazz music."
+  },
+  {
+    "day": "Sunday",
+    "time": "06:00 PM",
+    "title": "Latin Flavor Classic Edition",
+    "host": "Jim Byers",
+    "category": "Local Music",
+    "description": "Latin jazz programming."
+  },
+  {
+    "day": "Monday",
+    "time": "09:00 AM",
+    "title": "MALVEAUX!",
+    "host": "Dr. Julianne Malveaux",
+    "category": "Local Public Affairs",
+    "description": "Public affairs program."
+  },
+  {
+    "day": "Monday",
+    "time": "10:00 AM",
+    "title": "To Heal DC",
+    "host": "Joni Eisenberg & Chuck Hicks",
+    "category": "Health & Fitness",
+    "description": "Health and wellness discussion."
+  },
+  {
+    "day": "Monday",
+    "time": "05:00 PM",
+    "title": "To The East",
+    "host": "Ambrose Lane Jr.",
+    "category": "Local Public Affairs",
+    "description": "Community affairs."
+  },
+  {
+    "day": "Monday",
+    "time": "06:00 PM",
+    "title": "Inside Out Collective",
+    "host": "Collective Hosts",
+    "category": "Local Public Affairs",
+    "description": "Community voices."
+  },
+  {
+    "day": "Tuesday",
+    "time": "09:00 AM",
+    "title": "Voices With Vision",
+    "host": "Netfa Freeman & Craig Hall",
+    "category": "Local Public Affairs",
+    "description": "Public affairs discussion."
+  },
+  {
+    "day": "Tuesday",
+    "time": "10:00 AM",
+    "title": "Crossroads",
+    "host": "Roach Brown",
+    "category": "Local Public Affairs",
+    "description": "Community programming."
+  },
+  {
+    "day": "Tuesday",
+    "time": "05:00 PM",
+    "title": "Black Agenda Radio",
+    "host": "Margaret Kimberley",
+    "category": "Local Public Affairs",
+    "description": "News and analysis."
+  },
+  {
+    "day": "Tuesday",
+    "time": "06:00 PM",
+    "title": "Full Spectrum",
+    "host": "Anthony Rogers-Wright",
+    "category": "Local Public Affairs",
+    "description": "Current affairs."
+  },
+  {
+    "day": "Wednesday",
+    "time": "09:00 AM",
+    "title": "What's At Stake",
+    "host": "Verna Avery Brown",
+    "category": "Local Public Affairs",
+    "description": "Politics and public policy."
+  },
+  {
+    "day": "Wednesday",
+    "time": "10:00 AM",
+    "title": "Wake Up, Stay Woke",
+    "host": "Dr. E. Faye Williams",
+    "category": "Political Talk",
+    "description": "Political commentary."
+  },
+  {
+    "day": "Wednesday",
+    "time": "05:00 PM",
+    "title": "TBD",
+    "host": "TBD",
+    "category": "Local Public Affairs",
+    "description": "Program to be announced."
+  },
+  {
+    "day": "Wednesday",
+    "time": "06:00 PM",
+    "title": "Sojourner Truth",
+    "host": "Nana Gyamfi",
+    "category": "Political Talk",
+    "description": "News and public affairs."
+  },
+  {
+    "day": "Thursday",
+    "time": "09:00 AM",
+    "title": "On The Margin",
+    "host": "E. Ethelbert Miller",
+    "category": "Local Public Affairs",
+    "description": "Arts and culture."
+  },
+  {
+    "day": "Thursday",
+    "time": "10:00 AM",
+    "title": "The Collision: Sports and Politics",
+    "host": "Etan Thomas, Dave Zirin & Chuck Modiano",
+    "category": "Political Talk",
+    "description": "Sports and politics."
+  },
+  {
+    "day": "Thursday",
+    "time": "05:00 PM",
+    "title": "Unionism Drives Community",
+    "host": "Renee Bowser",
+    "category": "Local Public Affairs",
+    "description": "Labor and community issues."
+  },
+  {
+    "day": "Thursday",
+    "time": "06:00 PM",
+    "title": "#UMustLearn",
+    "host": "Baba Ayiize & Dr. Daryl Howard",
+    "category": "Local Public Affairs",
+    "description": "Education and culture."
+  },
+  {
+    "day": "Friday",
+    "time": "09:00 AM",
+    "title": "#Climate Friday",
+    "host": "Rev. Lennox Yearwood",
+    "category": "Public Affairs",
+    "description": "Climate and environmental justice."
+  },
+  {
+    "day": "Friday",
+    "time": "10:00 AM",
+    "title": "On The Ground",
+    "host": "Esther Iverem",
+    "category": "Local Public Affairs",
+    "description": "Independent news."
+  },
+  {
+    "day": "Friday",
+    "time": "05:00 PM",
+    "title": "Darker Than Blue",
+    "host": "Jacqueline Luqman",
+    "category": "Political Talk",
+    "description": "Politics and culture."
+  },
+  {
+    "day": "Friday",
+    "time": "06:00 PM",
+    "title": "News Views",
+    "host": "Garland Nixon",
+    "category": "News Program",
+    "description": "News analysis."
+  },
+  {
+    "day": "Saturday",
+    "time": "05:00 AM",
+    "title": "In The Mood",
+    "host": "Arthur McCloud",
+    "category": "Syndicated Music",
+    "description": "Big band and jazz."
+  },
+  {
+    "day": "Saturday",
+    "time": "10:00 AM",
+    "title": "House Of Soul",
+    "host": "DJ Lance Reynolds",
+    "category": "Syndicated Music",
+    "description": "Soul music."
+  },
+  {
+    "day": "Saturday",
+    "time": "06:00 PM",
+    "title": "Caribbeana",
+    "host": "Von Martin & Bryan Bernard",
+    "category": "Local Music",
+    "description": "Caribbean music."
+  }
+]
