@@ -66,9 +66,9 @@ function buildGrid() {
   const query = searchInput.value.toLowerCase();
 
   scheduleGrid.style.gridTemplateColumns =
-    viewMode === "today"
-      ? "100px minmax(260px, 1fr)"
-      : "100px repeat(7, minmax(180px, 1fr))";
+  viewMode === "today"
+    ? "80px minmax(230px, 1fr)"
+    : "70px repeat(7, 150px)";
 
   scheduleGrid.innerHTML = "";
 
