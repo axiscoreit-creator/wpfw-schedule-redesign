@@ -58,10 +58,25 @@ function buildGrid() {
   const visibleDays = getVisibleDays();
   const days = ["Time", ...visibleDays];
   const times = [
-    "5:00 AM", "6:00 AM", "7:00 AM", "8:00 AM", "9:00 AM", "10:00 AM",
-    "1:00 PM", "4:00 PM", "5:00 PM", "6:00 PM"
-  ];
-
+  "5:00 AM",
+  "5:30 AM",
+  "6:00 AM",
+  "6:30 AM",
+  "7:00 AM",
+  "7:30 AM",
+  "8:00 AM",
+  "8:30 AM",
+  "9:00 AM",
+  "9:30 AM",
+  "10:00 AM",
+  "10:30 AM",
+  "11:00 AM",
+  "11:30 AM",
+  "Noon",
+  "12:30 PM",
+  "1:00 PM",
+  "1:30 PM"
+];
   const query = searchInput.value.toLowerCase();
 
   scheduleGrid.style.gridTemplateColumns =
@@ -102,7 +117,7 @@ function buildGrid() {
         cell.classList.add(categoryClass(program.category));
 
         cell.innerHTML = `
-          <button class="program-card">
+          <button class="program-card" aria-label="View details for ${program.title}">
             <span class="program-title">${program.title}</span>
             <span class="host">${program.host}</span>
             <span class="category">${program.category}</span>
@@ -110,7 +125,7 @@ function buildGrid() {
         `;
 
         cell.querySelector(".program-card").addEventListener("click", () => {
-          openModal(program, day, time);
+          showDetails(program, day, time);
         });
       }
 
@@ -119,24 +134,13 @@ function buildGrid() {
   });
 }
 
-function openModal(program, day, time) {
-  document.getElementById("modalTitle").textContent = program.title;
-  document.getElementById("modalTime").textContent = `${day} at ${time}`;
-  document.getElementById("modalHost").textContent = `Host: ${program.host}`;
-  document.getElementById("modalCategory").textContent = `Category: ${program.category}`;
-  document.getElementById("modalDescription").textContent = program.description;
-  document.getElementById("programModal").classList.remove("hidden");
+function showDetails(program, day, time) {
+  document.getElementById("detailTitle").textContent = program.title;
+  document.getElementById("detailTime").textContent = `${day} at ${time}`;
+  document.getElementById("detailHost").textContent = `Host: ${program.host}`;
+  document.getElementById("detailCategory").textContent = `Category: ${program.category}`;
+  document.getElementById("detailDescription").textContent = program.description;
 }
-
-document.getElementById("closeModal").addEventListener("click", () => {
-  document.getElementById("programModal").classList.add("hidden");
-});
-
-document.getElementById("programModal").addEventListener("click", e => {
-  if (e.target.id === "programModal") {
-    e.target.classList.add("hidden");
-  }
-});
 
 document.getElementById("prevWeek").addEventListener("click", () => {
   currentWeekStart.setDate(currentWeekStart.getDate() - 7);
