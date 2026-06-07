@@ -358,3 +358,8 @@ button {
   width: auto;
   padding: .25rem .5rem;
 }
+@media (max-width: 700px) {
+  .details-panel {
+    display: none;
+  }
+}
