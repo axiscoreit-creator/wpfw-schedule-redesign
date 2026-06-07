@@ -1,39 +1,15 @@
 [
-    {
-    "day": "Monday",
+  {
+    "day": "Sunday",
     "time": "5:00 AM",
-    "title": "Morning Brew Jazz Notes Edition",
-    "host": "Ellen Carter",
+    "title": "The S.H.E.A. Train",
+    "host": "WPFW",
     "category": "Syndicated Music",
-    "description": "Morning jazz programming featuring Union City Radio."
-  },
-  {
-    "day": "Thursday",
-    "time": "5:00 AM",
-    "title": "Morning Brew Classic Jazz Edition",
-    "host": "Craig Williams",
-    "category": "Syndicated Music",
-    "description": "Classic jazz morning programming."
-  },
-  {
-    "day": "Friday",
-    "time": "1:00 PM",
-    "title": "The Labor Heritage Power Hour",
-    "host": "Chris Garlock / Elise Bryant",
-    "category": "Local Public Affairs",
-    "description": "Labor news and information."
-  },
-  {
-    "day": "Friday",
-    "time": "10:00 AM",
-    "title": "On The Ground",
-    "host": "Esther Iverem",
-    "category": "Local Public Affairs",
-    "description": "News and analysis from the ground up."
+    "description": "Early morning jazz programming."
   },
   {
     "day": "Sunday",
-    "time": "06:00 AM",
+    "time": "6:00 AM",
     "title": "Spirit Of Jazz",
     "host": "Lona Alias",
     "category": "Syndicated Music",
@@ -41,7 +17,23 @@
   },
   {
     "day": "Sunday",
-    "time": "09:00 AM",
+    "time": "7:00 AM",
+    "title": "Morning Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Early-day music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Sunday",
+    "time": "8:00 AM",
+    "title": "Community Morning Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Public Affairs",
+    "description": "Public affairs and community programming placeholder."
+  },
+  {
+    "day": "Sunday",
+    "time": "9:00 AM",
     "title": "G-Strings",
     "host": "Tom Cole",
     "category": "Syndicated Music",
@@ -49,7 +41,55 @@
   },
   {
     "day": "Sunday",
-    "time": "04:00 PM",
+    "time": "10:00 AM",
+    "title": "Community Morning Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Public Affairs",
+    "description": "Public affairs and community programming placeholder."
+  },
+  {
+    "day": "Sunday",
+    "time": "11:00 AM",
+    "title": "Community Morning Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Public Affairs",
+    "description": "Public affairs and community programming placeholder."
+  },
+  {
+    "day": "Sunday",
+    "time": "Noon",
+    "title": "Sunday Kind Of Love",
+    "host": "Miyuki Williams",
+    "category": "Syndicated Music",
+    "description": "Sunday music programming."
+  },
+  {
+    "day": "Sunday",
+    "time": "1:00 PM",
+    "title": "Afternoon Programming Block",
+    "host": "WPFW Hosts",
+    "category": "Local Public Affairs",
+    "description": "Afternoon programming placeholder for full-week prototype coverage."
+  },
+  {
+    "day": "Sunday",
+    "time": "2:00 PM",
+    "title": "Open Sky",
+    "host": "Willard Jenkins",
+    "category": "Syndicated Music",
+    "description": "Jazz and cultural programming."
+  },
+  {
+    "day": "Sunday",
+    "time": "3:00 PM",
+    "title": "Afternoon Programming Block",
+    "host": "WPFW Hosts",
+    "category": "Local Public Affairs",
+    "description": "Afternoon programming placeholder for full-week prototype coverage."
+  },
+  {
+    "day": "Sunday",
+    "time": "4:00 PM",
     "title": "Miles Ahead",
     "host": "Miles Willis",
     "category": "Syndicated Music",
@@ -57,15 +97,95 @@
   },
   {
     "day": "Sunday",
-    "time": "06:00 PM",
+    "time": "5:00 PM",
+    "title": "Evening Drive Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Music",
+    "description": "Evening music and community programming placeholder."
+  },
+  {
+    "day": "Sunday",
+    "time": "6:00 PM",
     "title": "Latin Flavor Classic Edition",
     "host": "Jim Byers",
     "category": "Local Music",
     "description": "Latin jazz programming."
   },
   {
+    "day": "Sunday",
+    "time": "7:00 PM",
+    "title": "Evening Drive Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Music",
+    "description": "Evening music and community programming placeholder."
+  },
+  {
+    "day": "Sunday",
+    "time": "8:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Sunday",
+    "time": "9:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Sunday",
+    "time": "10:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Sunday",
+    "time": "11:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
     "day": "Monday",
-    "time": "09:00 AM",
+    "time": "5:00 AM",
+    "title": "Morning Brew Jazz Notes Edition feat. Union City Radio",
+    "host": "Ellen Carter",
+    "category": "Syndicated Music",
+    "description": "Morning jazz programming featuring Union City Radio."
+  },
+  {
+    "day": "Monday",
+    "time": "6:00 AM",
+    "title": "Morning Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Early-day music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Monday",
+    "time": "7:00 AM",
+    "title": "Morning Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Early-day music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Monday",
+    "time": "8:00 AM",
+    "title": "Democracy Now!",
+    "host": "Amy Goodman, Juan Gonzalez, & Nermeen Shaikh",
+    "category": "News Program",
+    "description": "Independent global news."
+  },
+  {
+    "day": "Monday",
+    "time": "9:00 AM",
     "title": "MALVEAUX!",
     "host": "Dr. Julianne Malveaux",
     "category": "Local Public Affairs",
@@ -81,7 +201,55 @@
   },
   {
     "day": "Monday",
-    "time": "05:00 PM",
+    "time": "11:00 AM",
+    "title": "Make It Plain",
+    "host": "Rev. Mark Thompson",
+    "category": "Political Talk",
+    "description": "Political commentary and analysis."
+  },
+  {
+    "day": "Monday",
+    "time": "Noon",
+    "title": "Don't Forget the Blues - Elliott Gross",
+    "host": "Elliott Gross",
+    "category": "Local Music",
+    "description": "Blues music programming."
+  },
+  {
+    "day": "Monday",
+    "time": "1:00 PM",
+    "title": "Equal Portions",
+    "host": "Seychelle xRichardson",
+    "category": "Local Public Affairs",
+    "description": "Public affairs programming."
+  },
+  {
+    "day": "Monday",
+    "time": "2:00 PM",
+    "title": "To Your Health",
+    "host": "Dr. Ted Watkins",
+    "category": "Health & Fitness",
+    "description": "Health and wellness programming."
+  },
+  {
+    "day": "Monday",
+    "time": "3:00 PM",
+    "title": "Jazz and Justice - African Deep Thought",
+    "host": "Brother Ka'Ba",
+    "category": "Local Public Affairs",
+    "description": "Jazz, justice, and community discussion."
+  },
+  {
+    "day": "Monday",
+    "time": "4:00 PM",
+    "title": "Evening Drive Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Music",
+    "description": "Evening music and community programming placeholder."
+  },
+  {
+    "day": "Monday",
+    "time": "5:00 PM",
     "title": "To The East",
     "host": "Ambrose Lane Jr.",
     "category": "Local Public Affairs",
@@ -89,15 +257,87 @@
   },
   {
     "day": "Monday",
-    "time": "06:00 PM",
+    "time": "6:00 PM",
     "title": "Inside Out Collective",
     "host": "Collective Hosts",
     "category": "Local Public Affairs",
     "description": "Community voices."
   },
   {
+    "day": "Monday",
+    "time": "7:00 PM",
+    "title": "Building Bridges",
+    "host": "Mimi Rosenberg with co-host Ken Nash",
+    "category": "Syndicated Program",
+    "description": "Labor, justice, and movement reporting."
+  },
+  {
+    "day": "Monday",
+    "time": "8:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Monday",
+    "time": "9:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Monday",
+    "time": "10:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Monday",
+    "time": "11:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
     "day": "Tuesday",
-    "time": "09:00 AM",
+    "time": "5:00 AM",
+    "title": "Morning Brew Yardbird Sweets Edition feat. Union City Radio",
+    "host": "Bro Jamil",
+    "category": "Syndicated Music",
+    "description": "Morning jazz programming featuring Union City Radio."
+  },
+  {
+    "day": "Tuesday",
+    "time": "6:00 AM",
+    "title": "Morning Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Early-day music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Tuesday",
+    "time": "7:00 AM",
+    "title": "Morning Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Early-day music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Tuesday",
+    "time": "8:00 AM",
+    "title": "Democracy Now!",
+    "host": "Amy Goodman, Juan Gonzalez, & Nermeen Shaikh",
+    "category": "News Program",
+    "description": "Independent global news."
+  },
+  {
+    "day": "Tuesday",
+    "time": "9:00 AM",
     "title": "Voices With Vision",
     "host": "Netfa Freeman & Craig Hall",
     "category": "Local Public Affairs",
@@ -113,7 +353,55 @@
   },
   {
     "day": "Tuesday",
-    "time": "05:00 PM",
+    "time": "11:00 AM",
+    "title": "Community Watch & Comment - Tuesday",
+    "host": "David Rabin & Janna Parker",
+    "category": "Local Public Affairs",
+    "description": "Community affairs and commentary."
+  },
+  {
+    "day": "Tuesday",
+    "time": "Noon",
+    "title": "Don't Forget The Blues - Lady Myrrh",
+    "host": "Lady Myrrh",
+    "category": "Local Music",
+    "description": "Blues music programming."
+  },
+  {
+    "day": "Tuesday",
+    "time": "1:00 PM",
+    "title": "Project Censored",
+    "host": "Mickey Huff and Eleanor Goldfield",
+    "category": "Syndicated Program",
+    "description": "Media criticism and public affairs."
+  },
+  {
+    "day": "Tuesday",
+    "time": "2:00 PM",
+    "title": "Capitalism, Race & Democracy",
+    "host": "National Program",
+    "category": "Syndicated Program",
+    "description": "Discussion of political economy, race, and democracy."
+  },
+  {
+    "day": "Tuesday",
+    "time": "3:00 PM",
+    "title": "Something to Say",
+    "host": "Mazi Mutafa and Patrick Washington",
+    "category": "Local Public Affairs",
+    "description": "Community culture and public affairs."
+  },
+  {
+    "day": "Tuesday",
+    "time": "4:00 PM",
+    "title": "Evening Drive Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Music",
+    "description": "Evening music and community programming placeholder."
+  },
+  {
+    "day": "Tuesday",
+    "time": "5:00 PM",
     "title": "Black Agenda Radio",
     "host": "Margaret Kimberley",
     "category": "Local Public Affairs",
@@ -121,17 +409,89 @@
   },
   {
     "day": "Tuesday",
-    "time": "06:00 PM",
+    "time": "6:00 PM",
     "title": "Full Spectrum",
     "host": "Anthony Rogers-Wright",
     "category": "Local Public Affairs",
     "description": "Current affairs."
   },
   {
+    "day": "Tuesday",
+    "time": "7:00 PM",
+    "title": "Liberation on Our Minds",
+    "host": "WPFW Hosts",
+    "category": "Local Public Affairs",
+    "description": "Community discussion and liberation-focused programming."
+  },
+  {
+    "day": "Tuesday",
+    "time": "8:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Tuesday",
+    "time": "9:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Tuesday",
+    "time": "10:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Tuesday",
+    "time": "11:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
     "day": "Wednesday",
-    "time": "09:00 AM",
+    "time": "5:00 AM",
+    "title": "Morning Brew Beyond Borders Edition feat. Union City Radio",
+    "host": "Katea Stitt",
+    "category": "Syndicated Music",
+    "description": "Morning jazz programming featuring Union City Radio."
+  },
+  {
+    "day": "Wednesday",
+    "time": "6:00 AM",
+    "title": "Morning Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Early-day music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Wednesday",
+    "time": "7:00 AM",
+    "title": "Morning Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Early-day music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Wednesday",
+    "time": "8:00 AM",
+    "title": "Democracy Now!",
+    "host": "Amy Goodman, Juan Gonzalez, & Nermeen Shaikh",
+    "category": "News Program",
+    "description": "Independent global news."
+  },
+  {
+    "day": "Wednesday",
+    "time": "9:00 AM",
     "title": "What's At Stake",
-    "host": "Verna Avery Brown",
+    "host": "Verna Avery Brown, Kymone Freeman, Marsha Coleman Adebayo, Fahima Seck",
     "category": "Local Public Affairs",
     "description": "Politics and public policy."
   },
@@ -145,7 +505,55 @@
   },
   {
     "day": "Wednesday",
-    "time": "05:00 PM",
+    "time": "11:00 AM",
+    "title": "We The People",
+    "host": "David Whettstone",
+    "category": "Local Public Affairs",
+    "description": "Public affairs and community discussion."
+  },
+  {
+    "day": "Wednesday",
+    "time": "Noon",
+    "title": "Don't Forget The Blues - Clarence \"Bluesman\" Turner",
+    "host": "Clarence \"Bluesman\" Turner",
+    "category": "Local Music",
+    "description": "Blues music programming."
+  },
+  {
+    "day": "Wednesday",
+    "time": "1:00 PM",
+    "title": "AfricaNow!",
+    "host": "Mwiza Munthali / James Pope",
+    "category": "Local Public Affairs",
+    "description": "African affairs, news, and analysis."
+  },
+  {
+    "day": "Wednesday",
+    "time": "2:00 PM",
+    "title": "Shay Wah Nana",
+    "host": "Zein El-Amine",
+    "category": "Local Public Affairs",
+    "description": "Culture and public affairs programming."
+  },
+  {
+    "day": "Wednesday",
+    "time": "3:00 PM",
+    "title": "Jazz and Justice - Sophie's Parlor",
+    "host": "Helen Viskinns, Drea Thompson, Marietta Ulacia, Violetta Diamond, & Lakeisha Harrison",
+    "category": "Local Public Affairs",
+    "description": "Jazz, justice, and community discussion."
+  },
+  {
+    "day": "Wednesday",
+    "time": "4:00 PM",
+    "title": "Evening Drive Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Music",
+    "description": "Evening music and community programming placeholder."
+  },
+  {
+    "day": "Wednesday",
+    "time": "5:00 PM",
     "title": "TBD",
     "host": "TBD",
     "category": "Local Public Affairs",
@@ -153,15 +561,87 @@
   },
   {
     "day": "Wednesday",
-    "time": "06:00 PM",
+    "time": "6:00 PM",
     "title": "Sojourner Truth",
     "host": "Nana Gyamfi",
     "category": "Political Talk",
     "description": "News and public affairs."
   },
   {
+    "day": "Wednesday",
+    "time": "7:00 PM",
+    "title": "Konbit Lakay",
+    "host": "Eugenia Charles",
+    "category": "Local Public Affairs",
+    "description": "Community and cultural programming."
+  },
+  {
+    "day": "Wednesday",
+    "time": "8:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Wednesday",
+    "time": "9:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Wednesday",
+    "time": "10:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Wednesday",
+    "time": "11:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
     "day": "Thursday",
-    "time": "09:00 AM",
+    "time": "5:00 AM",
+    "title": "Morning Brew Classic Jazz Edition feat. Union City Radio",
+    "host": "Craig Williams",
+    "category": "Syndicated Music",
+    "description": "Classic jazz morning programming."
+  },
+  {
+    "day": "Thursday",
+    "time": "6:00 AM",
+    "title": "Morning Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Early-day music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Thursday",
+    "time": "7:00 AM",
+    "title": "Morning Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Early-day music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Thursday",
+    "time": "8:00 AM",
+    "title": "Democracy Now!",
+    "host": "Amy Goodman, Juan Gonzalez, & Nermeen Shaikh",
+    "category": "News Program",
+    "description": "Independent global news."
+  },
+  {
+    "day": "Thursday",
+    "time": "9:00 AM",
     "title": "On The Margin",
     "host": "E. Ethelbert Miller",
     "category": "Local Public Affairs",
@@ -177,7 +657,55 @@
   },
   {
     "day": "Thursday",
-    "time": "05:00 PM",
+    "time": "11:00 AM",
+    "title": "Code Pink Radio",
+    "host": "Code Pink Collective",
+    "category": "Political Talk",
+    "description": "Peace, justice, and political discussion."
+  },
+  {
+    "day": "Thursday",
+    "time": "Noon",
+    "title": "Don't Forget The Blues - Scooter Magruder",
+    "host": "Scooter Magruder",
+    "category": "Local Music",
+    "description": "Blues music programming."
+  },
+  {
+    "day": "Thursday",
+    "time": "1:00 PM",
+    "title": "The Labor Heritage Power Hour",
+    "host": "Chris Garlock / Elise Bryant",
+    "category": "Local Public Affairs",
+    "description": "Labor news and information."
+  },
+  {
+    "day": "Thursday",
+    "time": "2:00 PM",
+    "title": "Short Money: Dissecting Racial Capitalism",
+    "host": "Jon Jeter",
+    "category": "Local Public Affairs",
+    "description": "Public affairs and political economy."
+  },
+  {
+    "day": "Thursday",
+    "time": "3:00 PM",
+    "title": "Jazz & Justice - Jazz Stories",
+    "host": "Gio Russenello & Josh Meyers",
+    "category": "Local Public Affairs",
+    "description": "Jazz, justice, and storytelling."
+  },
+  {
+    "day": "Thursday",
+    "time": "4:00 PM",
+    "title": "Evening Drive Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Music",
+    "description": "Evening music and community programming placeholder."
+  },
+  {
+    "day": "Thursday",
+    "time": "5:00 PM",
     "title": "Unionism Drives Community",
     "host": "Renee Bowser",
     "category": "Local Public Affairs",
@@ -185,17 +713,89 @@
   },
   {
     "day": "Thursday",
-    "time": "06:00 PM",
+    "time": "6:00 PM",
     "title": "#UMustLearn",
     "host": "Baba Ayiize & Dr. Daryl Howard",
     "category": "Local Public Affairs",
     "description": "Education and culture."
   },
   {
+    "day": "Thursday",
+    "time": "7:00 PM",
+    "title": "Evening Drive Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Music",
+    "description": "Evening music and community programming placeholder."
+  },
+  {
+    "day": "Thursday",
+    "time": "8:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Thursday",
+    "time": "9:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Thursday",
+    "time": "10:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Thursday",
+    "time": "11:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
     "day": "Friday",
-    "time": "09:00 AM",
+    "time": "5:00 AM",
+    "title": "Morning Brew Jazz Edition feat. Union City Radio",
+    "host": "Candy Shannon",
+    "category": "Syndicated Music",
+    "description": "Morning jazz programming featuring Union City Radio."
+  },
+  {
+    "day": "Friday",
+    "time": "6:00 AM",
+    "title": "Morning Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Early-day music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Friday",
+    "time": "7:00 AM",
+    "title": "Morning Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Early-day music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Friday",
+    "time": "8:00 AM",
+    "title": "Democracy Now!",
+    "host": "Amy Goodman, Juan Gonzalez, & Nermeen Shaikh",
+    "category": "News Program",
+    "description": "Independent global news."
+  },
+  {
+    "day": "Friday",
+    "time": "9:00 AM",
     "title": "#Climate Friday",
-    "host": "Rev. Lennox Yearwood",
+    "host": "Rev. Lennox Yearwood / T.C. Muhammad",
     "category": "Public Affairs",
     "description": "Climate and environmental justice."
   },
@@ -209,7 +809,55 @@
   },
   {
     "day": "Friday",
-    "time": "05:00 PM",
+    "time": "11:00 AM",
+    "title": "Community Watch & Comment - Friday",
+    "host": "Local Station Board Show",
+    "category": "Local Public Affairs",
+    "description": "Community discussion and local station board programming."
+  },
+  {
+    "day": "Friday",
+    "time": "Noon",
+    "title": "Don't Forget The Blues - Ida Campbell",
+    "host": "Ida Campbell",
+    "category": "Local Music",
+    "description": "Blues music programming."
+  },
+  {
+    "day": "Friday",
+    "time": "1:00 PM",
+    "title": "Latino Media Collective",
+    "host": "Oscar Fernandez / Abigail DeRoberts",
+    "category": "Local Public Affairs",
+    "description": "Latino community news and analysis."
+  },
+  {
+    "day": "Friday",
+    "time": "2:00 PM",
+    "title": "Resistance Radio with John and Regan",
+    "host": "John Kane & Regan de Loggans",
+    "category": "Local Public Affairs",
+    "description": "Resistance-focused political and community discussion."
+  },
+  {
+    "day": "Friday",
+    "time": "3:00 PM",
+    "title": "Afternoon Programming Block",
+    "host": "WPFW Hosts",
+    "category": "Local Public Affairs",
+    "description": "Afternoon programming placeholder for full-week prototype coverage."
+  },
+  {
+    "day": "Friday",
+    "time": "4:00 PM",
+    "title": "Evening Drive Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Music",
+    "description": "Evening music and community programming placeholder."
+  },
+  {
+    "day": "Friday",
+    "time": "5:00 PM",
     "title": "Darker Than Blue",
     "host": "Jacqueline Luqman",
     "category": "Political Talk",
@@ -217,19 +865,91 @@
   },
   {
     "day": "Friday",
-    "time": "06:00 PM",
+    "time": "6:00 PM",
     "title": "News Views",
     "host": "Garland Nixon",
     "category": "News Program",
     "description": "News analysis."
   },
   {
+    "day": "Friday",
+    "time": "7:00 PM",
+    "title": "Robyn's Place",
+    "host": "Robyn Holden",
+    "category": "Local Music",
+    "description": "Music and community programming."
+  },
+  {
+    "day": "Friday",
+    "time": "8:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Friday",
+    "time": "9:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Friday",
+    "time": "10:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Friday",
+    "time": "11:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
     "day": "Saturday",
-    "time": "05:00 AM",
+    "time": "5:00 AM",
     "title": "In The Mood",
     "host": "Arthur McCloud",
     "category": "Syndicated Music",
     "description": "Big band and jazz."
+  },
+  {
+    "day": "Saturday",
+    "time": "6:00 AM",
+    "title": "Morning Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Early-day music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Saturday",
+    "time": "7:00 AM",
+    "title": "Oldies House Party",
+    "host": "Cap'n Fly & Jas. Funk",
+    "category": "Syndicated Music",
+    "description": "Oldies music programming."
+  },
+  {
+    "day": "Saturday",
+    "time": "8:00 AM",
+    "title": "Community Morning Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Public Affairs",
+    "description": "Public affairs and community programming placeholder."
+  },
+  {
+    "day": "Saturday",
+    "time": "9:00 AM",
+    "title": "Community Morning Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Public Affairs",
+    "description": "Public affairs and community programming placeholder."
   },
   {
     "day": "Saturday",
@@ -241,10 +961,106 @@
   },
   {
     "day": "Saturday",
-    "time": "06:00 PM",
+    "time": "11:00 AM",
+    "title": "Community Morning Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Public Affairs",
+    "description": "Public affairs and community programming placeholder."
+  },
+  {
+    "day": "Saturday",
+    "time": "Noon",
+    "title": "Southern Soul Party",
+    "host": "Lady C",
+    "category": "Syndicated Music",
+    "description": "Southern soul music programming."
+  },
+  {
+    "day": "Saturday",
+    "time": "1:00 PM",
+    "title": "Afternoon Programming Block",
+    "host": "WPFW Hosts",
+    "category": "Local Public Affairs",
+    "description": "Afternoon programming placeholder for full-week prototype coverage."
+  },
+  {
+    "day": "Saturday",
+    "time": "2:00 PM",
+    "title": "Roots and Fruits",
+    "host": "Bill Wax",
+    "category": "Syndicated Music",
+    "description": "Roots music programming."
+  },
+  {
+    "day": "Saturday",
+    "time": "3:00 PM",
+    "title": "Afternoon Programming Block",
+    "host": "WPFW Hosts",
+    "category": "Local Public Affairs",
+    "description": "Afternoon programming placeholder for full-week prototype coverage."
+  },
+  {
+    "day": "Saturday",
+    "time": "4:00 PM",
+    "title": "Kulcha Shak",
+    "host": "DJ Zee-Lion & Kim",
+    "category": "Local Music",
+    "description": "Reggae and culture programming."
+  },
+  {
+    "day": "Saturday",
+    "time": "5:00 PM",
+    "title": "Evening Drive Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Music",
+    "description": "Evening music and community programming placeholder."
+  },
+  {
+    "day": "Saturday",
+    "time": "6:00 PM",
     "title": "Caribbeana",
     "host": "Von Martin & Bryan Bernard",
     "category": "Local Music",
     "description": "Caribbean music."
+  },
+  {
+    "day": "Saturday",
+    "time": "7:00 PM",
+    "title": "Evening Drive Programming",
+    "host": "WPFW Hosts",
+    "category": "Local Music",
+    "description": "Evening music and community programming placeholder."
+  },
+  {
+    "day": "Saturday",
+    "time": "8:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Saturday",
+    "time": "9:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Saturday",
+    "time": "10:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
+  },
+  {
+    "day": "Saturday",
+    "time": "11:00 PM",
+    "title": "Late Night Music Mix",
+    "host": "WPFW Music Hosts",
+    "category": "Syndicated Music",
+    "description": "Late-night music programming placeholder for prototype continuity."
   }
 ]
