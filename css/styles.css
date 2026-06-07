@@ -332,4 +332,29 @@ button {
   .category {
     font-size: 0.8rem;
   }
+.mobile-popover {
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  width: 300px;
+  max-width: calc(100vw - 24px);
+  background: #111;
+  color: #fff;
+  border: 3px solid #9cff7a;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,.45);
+}
+
+.mobile-popover h3 {
+  margin-top: 0;
+  color: #9cff7a;
+}
+
+.mobile-popover-close {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  width: auto;
+  padding: .25rem .5rem;
 }

@@ -110,9 +110,10 @@ function buildGrid() {
           </button>
         `;
 
-        cell.querySelector(".program-card").addEventListener("click", () => {
-          showDetails(program, day, time);
-        });
+        cell.querySelector(".program-card").addEventListener("click", (event) => {
+  showDetails(program, day, time);
+  showMobilePopover(program, day, time, event.currentTarget);
+});
       }
 
       scheduleGrid.appendChild(cell);
@@ -127,7 +128,46 @@ function showDetails(program, day, time) {
   document.getElementById("detailCategory").textContent = `Category: ${program.category}`;
   document.getElementById("detailDescription").textContent = program.description;
 }
+function showMobilePopover(program, day, time, button) {
+  if (window.innerWidth > 700) return;
 
+  let popover = document.getElementById("mobilePopover");
+
+  if (!popover) {
+    popover = document.createElement("div");
+    popover.id = "mobilePopover";
+    popover.className = "mobile-popover";
+    document.body.appendChild(popover);
+  }
+
+  popover.innerHTML = `
+    <button class="mobile-popover-close" aria-label="Close">×</button>
+    <h3>${program.title}</h3>
+    <p><strong>${day}</strong> at ${time}</p>
+    <p><strong>Host:</strong> ${program.host}</p>
+    <p><strong>Category:</strong> ${program.category}</p>
+    <p>${program.description}</p>
+  `;
+
+  const rect = button.getBoundingClientRect();
+
+  popover.style.display = "block";
+
+  const popoverWidth = 300;
+  const left = Math.min(
+    window.innerWidth - popoverWidth - 12,
+    Math.max(12, rect.left)
+  );
+
+  const top = rect.bottom + window.scrollY + 8;
+
+  popover.style.left = `${left}px`;
+  popover.style.top = `${top}px`;
+
+  popover.querySelector(".mobile-popover-close").addEventListener("click", () => {
+    popover.style.display = "none";
+  });
+}
 document.getElementById("prevWeek").addEventListener("click", () => {
   currentWeekStart.setDate(currentWeekStart.getDate() - 7);
   updateWeekTitle();
