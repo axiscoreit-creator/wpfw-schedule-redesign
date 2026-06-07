@@ -132,8 +132,6 @@ function showDetails(program, day, time) {
   document.getElementById("detailDescription").textContent = program.description;
 }
 function showMobilePopover(program, day, time, button) {
-  if (window.innerWidth > 700) return;
-
   let popover = document.getElementById("mobilePopover");
 
   if (!popover) {
@@ -162,7 +160,15 @@ function showMobilePopover(program, day, time, button) {
     Math.max(12, rect.left)
   );
 
-  const top = rect.bottom + window.scrollY + 8;
+  let top = rect.bottom + 8;
+
+  if (top + popover.offsetHeight > window.innerHeight) {
+    top = rect.top - popover.offsetHeight - 8;
+  }
+
+  if (top < 12) {
+    top = 12;
+  }
 
   popover.style.left = `${left}px`;
   popover.style.top = `${top}px`;
