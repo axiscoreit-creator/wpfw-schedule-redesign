@@ -247,4 +247,89 @@ button {
     min-width: auto;
   }
 
+/* Tablet */
+@media (max-width: 1100px) {
+  .content-layout {
+    flex-direction: column;
+  }
+
+  .details-panel {
+    width: 100%;
+    min-width: 0;
+    position: static;
+  }
+
+  .schedule-wrapper {
+    overflow-x: auto;
+  }
+
+  .schedule-grid {
+    min-width: 1200px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  body {
+    font-size: 15px;
+  }
+
+  .site-header {
+    padding: 1rem;
+  }
+
+  .logo {
+    max-width: 180px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .week-nav,
+  .toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  button,
+  #searchInput {
+    width: 100%;
+  }
+
+  .schedule-wrapper {
+    padding: 0.5rem;
+    overflow-x: auto;
+  }
+
+  .schedule-grid {
+    grid-template-columns: 85px repeat(7, minmax(160px, 1fr));
+    min-width: 1250px;
+  }
+
+  .cell {
+    padding: 0.5rem;
+    min-height: 80px;
+  }
+}
+
+/* Small phone */
+@media (max-width: 430px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .schedule-grid {
+    grid-template-columns: 75px repeat(7, minmax(150px, 1fr));
+    min-width: 1125px;
+  }
+
+  .program-title {
+    font-size: 0.9rem;
+  }
+
+  .host,
+  .category {
+    font-size: 0.8rem;
+  }
 }
